@@ -4,7 +4,7 @@ function App() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-zinc-950 text-white">
             <div className="text-center">
-                <h1 className="text-4xl font-bold mb-4">Antigravity Code</h1>
+                <h1 className="text-4xl font-bold mb-4">Abhimanyu Code</h1>
                 <p className="text-zinc-400">Welcome to your interview preparation module.</p>
             </div>
         </div>
