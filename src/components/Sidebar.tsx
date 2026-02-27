@@ -20,7 +20,7 @@ export const Sidebar: React.FC = () => {
                 </div>
                 <div>
                     <h1 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-cyan-vibrant tracking-wider">
-                        ANTIGRAVITY
+                        ABHIMANYU
                     </h1>
                     <p className="text-xs text-cyan-vibrant/80 uppercase tracking-[0.2em] font-medium">Code</p>
                 </div>
