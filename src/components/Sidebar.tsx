@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Rocket, Orbit, Sparkles, TerminalSquare, Database } from 'lucide-react';
+import { Rocket, Orbit, Sparkles, TerminalSquare, Database, ShieldCheck } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
 
@@ -8,6 +8,7 @@ const NAV_ITEMS = [
     { path: '/', label: 'Launchpad', icon: Rocket, description: 'Basic Concepts' },
     { path: '/orbit', label: 'Orbit', icon: Orbit, description: 'Mediator Pattern' },
     { path: '/deep-space', label: 'Deep Space', icon: Sparkles, description: 'Advanced Concepts' },
+    { path: '/vault', label: 'The Vault', icon: ShieldCheck, description: 'Security & Auth' },
     { path: '/data-core', label: 'Data Core', icon: Database, description: 'The 400+ Question Archive' },
 ];
 

@@ -4,6 +4,7 @@ import { Launchpad } from './pages/Launchpad';
 import { Orbit } from './pages/Orbit';
 import { DeepSpace } from './pages/DeepSpace';
 import { DataCore } from './pages/DataCore';
+import { Vault } from './pages/Vault';
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                                 <Route path="/" element={<Launchpad />} />
                                 <Route path="/orbit" element={<Orbit />} />
                                 <Route path="/deep-space" element={<DeepSpace />} />
+                                <Route path="/vault" element={<Vault />} />
                                 <Route path="/data-core" element={<DataCore />} />
                             </Routes>
                         </AnimatePresence>
